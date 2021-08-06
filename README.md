@@ -10,7 +10,7 @@ Memoir is a cross-platform journal app built using Native Android Java (Mobile),
 
 __Android:__ Niranjan B, Salmi Majmal Sheriff, Anjal K K
 
-__JavaFX:__ Amal Nath M, Dinoy Raj K, Meenakshi Nair, Kavya
+__JavaFX:__ Amal Nath M, Meenakshi Nair, Dinoy Raj K, Kavya Chandran
 
 __Spring:__ Ajith Kumar PM, Mili Murali, Jijo Johnson
 
