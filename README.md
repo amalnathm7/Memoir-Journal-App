@@ -56,7 +56,7 @@ systems.
 
 ## Installation
 
-Run Memoir Desktop by clicking below 👇
+Download and run Memoir Desktop by clicking below 👇
 
 https://github.com/amalnathm7/Memoir/raw/main/Memoir.exe
 
