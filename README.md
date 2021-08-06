@@ -57,10 +57,16 @@ systems.
 <img src="screenshots/1.jpg"> <img src="screenshots/2.jpg"> 
 <img src="screenshots/3.jpg"> <img src="screenshots/4.jpg"> 
 
-## Installation
+## Installation (Desktop)
+Pre-requirements - Java 8
+####
 
-Download and run Memoir Desktop by clicking below 👇
+Download Memoir Desktop by clicking below 👇
 
 https://github.com/amalnathm7/Memoir/raw/main/Memoir.exe
+####
 
+After download, run Memoir.exe
+
+##
 ### _Write it out, anywhere!_ ✍✨
