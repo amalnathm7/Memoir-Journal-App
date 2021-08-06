@@ -58,3 +58,6 @@ systems.
 
 Run Memoir Desktop by clicking below 👇
 
+https://github.com/amalnathm7/Memoir/raw/main/Memoir.exe
+
+### _Write it out, anywhere!_ ✍✨
