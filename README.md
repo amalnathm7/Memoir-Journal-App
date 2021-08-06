@@ -14,6 +14,9 @@ __JavaFX:__ Amal Nath M, Meenakshi Nair, Dinoy Raj K, Kavya Chandran
 
 __Spring:__ Ajith Kumar PM, Mili Murali, Jijo Johnson
 
+####
+Proposal: https://github.com/amalnathm7/Memoir/raw/main/Memoir%20Proposal.pdf
+
 ## Abstract
 Memoir has a desktop application as well as a mobile app.
 The idea is broadly divided into 3 categories.
