@@ -53,3 +53,8 @@ systems.
 ## Screenshots
 <img src="screenshots/1.jpg"> <img src="screenshots/2.jpg"> 
 <img src="screenshots/3.jpg"> <img src="screenshots/4.jpg"> 
+
+## Installation
+
+Run Memoir Desktop by clicking below 👇
+
