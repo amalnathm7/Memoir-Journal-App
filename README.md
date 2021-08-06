@@ -4,7 +4,7 @@
   <img src="src/memoir/logo.png" width="200">
 </div>
 
-Memoir is a cross-platform journal app built using Native Android Java (Mobile) and JavaFX (Desktop).
+Memoir is a cross-platform journal app built using Native Android Java (Mobile), JavaFX (Desktop) and Spring Framework (Backend).
 
 ## Team Members
 
