@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoir.HomepageController">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="logout" layoutX="100.0" layoutY="661.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: transparent;" text="LOG OUT" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="101.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Pane prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label" alignment="CENTER" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="300.0" text="Memoir" textAlignment="CENTER">
+                     <font>
+                        <Font name="Segoe UI Light Italic" size="36.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.3904761904761905">
+                           <stops>
+                              <Stop color="#a600ff" />
+                              <Stop color="#ff00ea" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+               </children></Pane>
+            <VBox cache="true" layoutY="221.0" prefHeight="400.0" prefWidth="300.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="220.0">
+               <children>
+                  <Button fx:id="home" alignment="CENTER" graphicTextGap="20.0" mnemonicParsing="false" onAction="#homeBtn" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" text="HOME" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.3476190476190476">
+                           <stops>
+                              <Stop color="#a600ff" />
+                              <Stop color="#009eff" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="note" graphicTextGap="20.0" mnemonicParsing="false" onAction="#noteBtn" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" text="NOTES" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@notelogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.8714285714285714" startX="1.0" startY="0.08571428571428572">
+                           <stops>
+                              <Stop color="#e9ff29" />
+                              <Stop color="#26b926" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="todo" graphicTextGap="20.0" mnemonicParsing="false" onAction="#diaryBtn" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" text="TO-DO" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@todo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.8714285714285714" startX="1.0" startY="0.08571428571428572">
+                           <stops>
+                              <Stop color="#44f0ff" />
+                              <Stop color="#306dff" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="journal" graphicTextGap="20.0" mnemonicParsing="false" onAction="#journalBtn" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ffffff;" text="JOURNAL" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="31.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@journallogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.28095238095238095">
+                           <stops>
+                              <Stop color="#ffa100" />
+                              <Stop color="#ab1d1d" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="todopane" layoutX="300.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #6660a4;" styleClass="bodybg" stylesheets="@diarybg.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="addTodoBtn" contentDisplay="TOP" layoutX="286.0" layoutY="14.0" mnemonicParsing="false" onAction="#addTodo" prefHeight="44.0" prefWidth="44.0" style="-fx-background-color: transparent;" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ListView fx:id="todolist" fixedCellSize="50.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;" styleClass="list-cell" stylesheets="@listcell.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="notepane" layoutX="300.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #70b268;" styleClass="bodybg" stylesheets="@notesbg.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="addNoteBtn" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#addNote" prefHeight="53.0" prefWidth="64.0" style="-fx-background-color: transparent;" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ListView fx:id="notelist" fixedCellSize="50.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;" styleClass="list-cell" stylesheets="@listcell.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="journalpane" layoutX="300.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #ab4545;" styleClass="bodybg" stylesheets="@journalbg.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="addJournalBtn" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#addJournal" prefHeight="44.0" prefWidth="44.0" style="-fx-background-color: transparent;" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ListView fx:id="journallist" fixedCellSize="50.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: transparent;" styleClass="list-cell" stylesheets="@listcell.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="homepane" layoutX="300.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #a44343;" styleClass="bodybg" stylesheets="@stylesheet2.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="270.0" layoutY="230.0" prefHeight="240.0" prefWidth="160.0" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="230.0">
+               <children>
+                  <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@clipart1458421.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="username" alignment="CENTER" prefHeight="38.0" prefWidth="208.0" text="Username" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="combobox" onAction="#changeImage" prefHeight="39.0" prefWidth="208.0" promptText="Choose picture" style="-fx-background-color: #ffffff;" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

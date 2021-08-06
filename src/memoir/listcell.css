@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Feb, 2021, 4:34:27 AM
+    Author     : amaln
+*/
+
+.list-cell{
+    -fx-font: 18pt "Tahoma";
+    -fx-background-color: transparent
+}
+.list-cell:empty {
+    -fx-opacity: 0;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}

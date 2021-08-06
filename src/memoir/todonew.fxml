@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="journalpane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoir.TodonewController">
+   <children>
+      <DatePicker fx:id="enddate" editable="false" focusTraversable="false" layoutX="30.0" layoutY="134.0" prefHeight="40.0" prefWidth="250.0" promptText="DEADLINE" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="135.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </DatePicker>
+      <HBox layoutX="504.0" layoutY="138.0" prefHeight="50.0" prefWidth="180.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="125.0">
+         <children>
+            <Button fx:id="attach" contentDisplay="TOP" focusTraversable="false" mnemonicParsing="false" onAction="#addImg" prefHeight="50.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="ADD IMG" textFill="BLUE">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@attachment.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="redo" contentDisplay="TOP" focusTraversable="false" mnemonicParsing="false" onAction="#redoBtn" prefHeight="50.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="RE-ENTER" textFill="#98a80e">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@redo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="delete" contentDisplay="TOP" focusTraversable="false" mnemonicParsing="false" onAction="#deleteBtn" prefHeight="50.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="DELETE" textFill="RED">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <TextArea fx:id="description" focusTraversable="false" layoutX="31.0" layoutY="292.0" prefHeight="375.0" prefWidth="940.0" promptText="Description" wrapText="true" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="Bodoni MT" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextArea>
+      <TextField fx:id="title" focusTraversable="false" layoutX="30.0" layoutY="203.0" prefHeight="40.0" prefWidth="940.0" promptText="Title" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button fx:id="save" focusTraversable="false" graphicTextGap="10.0" layoutX="556.0" layoutY="642.0" mnemonicParsing="false" onAction="#saveBtn" prefHeight="44.0" prefWidth="109.0" style="-fx-background-color: transparent;" text="SAVE" textAlignment="CENTER" textFill="#18a320" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true">
+               <image>
+                  <Image url="@save.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" focusTraversable="false" layoutX="370.0" layoutY="14.0" prefHeight="100.0" text="New To-do" textAlignment="CENTER" textFill="#4118a3" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font name="Verdana Italic" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

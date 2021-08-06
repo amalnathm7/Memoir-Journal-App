@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memoir.SplashController">
+   <children>
+      <StackPane prefHeight="699.0" prefWidth="330.0">
+         <children>
+            <Circle fx:id="c1" radius="170.0" stroke="#00f6ff" strokeType="INSIDE" strokeWidth="15.0" style="-fx-stroke-dash-array: 50;" />
+            <Circle fx:id="c2" radius="120.0" stroke="#1100ff" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 30;" />
+            <Circle fx:id="c3" radius="70.0" stroke="#8c00ff" strokeType="INSIDE" strokeWidth="7.0" style="-fx-stroke-dash-array: 25;" />
+            <Label fx:id="label" prefHeight="33.0" prefWidth="86.0" text="LOADING" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+   </children>
+</HBox>
