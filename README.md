@@ -49,3 +49,6 @@ Work, etc.
 Different lists can be created for different tasks so that each task can be used for
 independent purposes. Server back-end synchronization enable tasks to be accessed by multiple operating
 systems.
+
+## Screenshots
+<img src="screenshots/1.png" width="200"> <img src="screenshots/2.png" width="200"> <img src="screenshots/3.png" width="200">
